@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listagem de Categorias</title>
+        
+        <script src="js/page.js"></script>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/listar.css">
+</head>
+<body>
+    <body>
+        <header id="navbar">
+            
+            <nav>
+                <a class="button" href="cadastroCat.html">Cadastro de Categoria</a>
+                <a class="button" href="listaCategoria.html">Listagem de Categorias</a>
+            </nav>
+            
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th class="separar">Marca</th>
+                        <th class="separar">Cor</th>
+                        <th class="separar"></th>
+                    </tr>
+                </thead>
+                <tbody id="lista">
+                    <tr>
+                        <td class="id"></td>
+                        <td class="nome"></td>
+                        <td class="descricao"></td>
+                        <td>
+                            <a class="editar" href=""></a> 
+                            <a class="excluir" href=""></a> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    <footer>
+        <h1>Todos direitos reservados<br /> &copy; Havan Labs</h1>
+    </footer>
+    <script>
+        window.onload = function (){
+            carregaLista();
+        }
+        </script>
+        
+    </body>
+</html>

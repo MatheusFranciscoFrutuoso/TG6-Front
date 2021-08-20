@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Categoria</title>
+    <script src="js/page.js"></script>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+<body>
+    <body>
+        <header id="navbar">
+            <div>
+                <a href="Menu.html"><img id="logo" src="imgs/logo_havan.jpg" alt="Logo Havan" name="Logo Havan"></a>
+            </div>
+            <nav>
+                <a class="button" href="cadastroCat.html">Cadastro de Categoria</a>
+                <a class="button" href="listaCategoria.html">Listagem de Categorias</a>
+            </nav>
+            <div>
+                <img id="user" src="imgs/user.jpg" alt="Usuario">
+            </div>
+        </header>
+        <main>
+            <fieldset>
+                <legend>Cadastro de Categoria</legend>
+                    <div class="data-form">
+                        <label for="marca">Nome: </label>
+                        <input type="text" name="marca" id="marca"><br />
+                    </div>
+                    <div class="data-form">
+                        <label for="cor">Descrição:</label>
+                        <input type="text" name="cor" id="cor"><br />
+                    </div>
+                    <hr>
+                    <input class="button" onclick="Cadastrar()" type="button" value="Salvar">
+            </fieldset>
+            <a class="button" href="Menu.html" >Voltar para o Menu</a>
+        </main>
+        <footer>
+            <h1>Todos direitos reservados<br /> &copy; Havan Labs</h1>
+        </footer>
+</body>
+</html>

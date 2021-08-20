@@ -1,0 +1,28 @@
+form{
+    margin: 5px auto 10px;
+    width:100%;
+    padding: 5px;
+}
+.data-form{
+    text-align: right;
+}
+label{
+    margin-right: 10px;
+    font-weight: bold;
+    color:#00137e;
+}
+input[type="text"], input[type="number"]{
+    background: #dbdbdb;
+    border: 1px solid #00137e;
+    height: 20px;
+    margin: 2px 0;
+    width: 86%;
+    padding: 1px 10px;
+    border-radius: 8px;
+    color: #00137e  ;
+}
+
+input[type="submit"]{
+    margin: 10px 44%;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+#lista{
+    width: 80%;
+}
+table{
+    width: 90%;
+    margin: 0 auto 10px;
+    border-collapse:collapse;
+}
+table thead{
+    background: #fff;
+    text-transform: uppercase;
+    height: 20px;
+
+}
+table tbody tr{
+    border-top: 10px solid #fff;
+}
+.separar{
+    padding-left: 120px;
+    
+}
+table thead tr th{
+    text-align: left;
+    padding-left: 15px;
+}
+table tbody tr td{
+    padding: 10px;
+    background-color: #7b918d;
+    padding-left: 15px;
+    color: #fff;
+}
+.nome{
+    width: 50px;
+}
+.descricao{
+    width: 300px;
+}
+
+.opcoes a{
+    border-radius: 3px;
+}
+.opcoes .editar{
+    color: #cc7400;
+}
+.opcoes .editar:hover{
+    color: #FFF;
+    background: #cc7400;
+}
+.opcoes .excluir{
+    color: #f00;
+}
+.opcoes .excluir:hover{
+    color: #fff;
+    background: #f00;
+}
